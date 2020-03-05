@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+
+</style>
+<head><title> Form Example</title></head>
+<body>
+      <form id="myform" method="post" target="_blank">
+            <fieldset>
+        <legend align="center">Personal Information</legend>
+        <label for="firstname">First Name:</label><input type="text" size="15" maxlength="10" value="John" name="firstname" tabindex="1"/><br /><br />
+        <label for="lastname">Last Name:</label><input type="text" size="15" maxlength="10" value="Smith" name="lastname" tabindex="2"/><br /><br />
+        Password: <input type="password" size="15" maxlength="10" name="password"/><br />
+        What's the brand of your car:<br />
+        Ford<input type="radio" value="Ford" name="car" /><br />
+        Volvo<input type="radio" value="Volvo" name="car" /><br />
+        Honda<input type="radio" value="Honda" name="car" /><br />
+          <input type="submit" value="Submit" /><br />
+          <input type="reset" value="Reset"><br />
+        </fieldset>
+        <fieldset>
+          <legend align="center">How do you commute to school (check all that apply):</legend>
+          <input type="checkbox" name="transportation" value="car">Car<br />
+          <input type="checkbox" name="transportation" value="bus">Bus<br />
+          <input type="checkbox" name="transportation" value="walk">Walk<br />
+        </fieldset>
+        <textarea cols="50" rows="10" name="comments" onclick="this.value='I dont like your website'">Comments here</textarea><br />
+        What fruit do you like: <br />
+        <select name="fruit">
+            <option value="apple">Apple</option>
+            <option value="orange">Orange</option>
+            <option value="grapes">Grapes</option>
+          </select><br />
+            What's your favorite color:
+
+      </form>
+    </body>
+</html>
